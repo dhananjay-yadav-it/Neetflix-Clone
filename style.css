@@ -45,6 +45,10 @@ nav {
     z-index: 10;
 }
 
+.nav-img img{
+    width: 148px;
+}
+
 .navbtn-1,
 .navbtn-2 {
     position: relative;
@@ -323,25 +327,30 @@ footer {
     /* nav-bar */
     nav {
         display: flex;
-        width: 90vw;
+        width: 86vw;
         justify-content: space-between;
         margin: auto;
         height: 10px;
         padding: 20px 0;
     }
 
+    .nav-img img{
+        width: 98px;
+        margin-top: 5px;
+    }
+
     .navbtn-1,
     .navbtn-2 {
-        font-size: 14px;
+        font-size: 12px;
         font-weight: bold;
     }
 
     .navbtn-1 {
-        padding: 3px 5px;
+        padding: 7px 4px;
     }
 
     .navbtn-2 {
-        padding: 3px 4px;
+        padding: 7px 12px;
     }
 
 
@@ -385,7 +394,7 @@ footer {
     }
 
     .main-button-section input {
-        font-size: 14px;
+        font-size: 18px;
         font-weight: 600;
         padding: 14px 16px;
         width: 90%;
@@ -504,8 +513,153 @@ footer {
         grid-template-columns: 1fr 1fr;
     }
 
-    .foottext-1,  .foottext-2 {
+    .foottext-1,
+    .foottext-2 {
         margin-left: 12px;
+        margin: 30px 12px;
+    }
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 350px) {
+
+    /* nav-bar */
+    nav {
+        display: flex;
+        width: 94vw;
+        margin: auto;
+        height: 5px;
+        padding: 20px 0;
+    }
+
+    .nav-img img{
+        width: 58px;
+        margin-top: 5px;
+    }
+
+    .navbtn-1,
+    .navbtn-2 {
+        font-size: 10px;
+        font-weight: bold;
+    }
+
+    .navbtn-1 {
+        padding: 2px 3px;
+    }
+
+    .navbtn-2 {
+        padding: 2px 3px;
+        margin-left: 5px;
+    }
+
+    /* main-content */
+    div .main-content> :first-child {
+        font-size: 22px;
+        font-weight: bolder;
+    }
+
+    div .main-content>:nth-child(2) {
+        font-size: 13px;
+        font-weight: 400;
+    }
+
+    div .main-content>:nth-child(3) {
+        font-size: 13px;
+        font-weight: 400;
+    }
+
+    /* main-btn */
+    .main-button-section input {
+        font-size: 12px;
+        font-weight: 600;
+        padding: 12px 12px;
+        width: 90%;
+    }
+
+    .main-gate-btn {
+        font-size: 12px;
+        font-weight: 600;
+        padding: 12px 15px;
+    }
+
+
+    /* section 1-4 */
+    .headline {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+
+    .subline {
+        font-size: 14px;
+    }
+
+    .section-img img {
+        position: relative;
+        width: 170px;
+        z-index: 10;
+    }
+
+    .sec-video-1 {
+        width: 120px;
+        margin-right: 26px;
+        top: 28px;
+        right: 0;
+    }
+
+    .sec-video-2 {
+        width: 100px;
+        top: 10px;
+        right: 0;
+        left: 31px;
+    }
+
+
+    /* faq section */
+    .sec-faq h1 {
+        font-size: 22px;
+    }
+
+    .faq {
+        padding: 8px;
+        margin: 5px;
+        width: 88vw;
+        font-size: 12px;
+    }
+
+    .faq-foot {
+        font-size: 13px;
+    }
+
+    /* btn */
+    .faq-email-btn input {
+        font-size: 10px;
+        padding: 11px 14px;
+        margin-bottom: 12px;
+        width: 100%;
+    }
+
+    .faq-get-btn {
+        font-size: 10px;
+        padding: 9px 12px;
+    }
+
+
+    /* footer */
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        font-size: 13px;
+    }
+
+    .foottext-1,
+    .foottext-2 {
+        font-size: 13px;
+        margin-left: 8px;
         margin: 30px 12px;
     }
 }
