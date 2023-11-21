@@ -15,7 +15,7 @@ body {
     background-image: url("assets/bg.jpg");
     height: 80vh;
     background-position: center center;
-    /* background-size: max(1200px, 100%); */
+    /*  background-size: max(1200px, 100%); */
     background-repeat: no-repeat;
     position: relative;
     top: 0;
@@ -25,7 +25,7 @@ body {
 .main .box {
     background-color: black;
     opacity: 0.72;
-    width: 100% ;
+    width: 100%;
     height: 80vh;
     position: absolute;
     top: 0;
@@ -95,7 +95,7 @@ nav {
 }
 
 div .main-content> :first-child {
-    font-size: 44px;
+    font-size: 48px;
     font-weight: bolder;
 }
 
@@ -342,7 +342,6 @@ footer {
 
 
 @media only screen and (max-width: 1300px) {
-
     /* nav-bar */
     nav {
         display: flex;
@@ -372,7 +371,6 @@ footer {
         padding: 7px 12px;
     }
 
-
     /* main-content */
     div .main-content> :first-child {
         font-size: 36px;
@@ -394,14 +392,11 @@ footer {
         width: 90vw;
     }
 }
-
-
-
+ 
 
 
 
 @media only screen and (max-width: 600px) {
-
     /* main-btn */
     .main-button-section {
         display: flex;
@@ -429,9 +424,7 @@ footer {
 
 
 
-
 @media only screen and (max-width: 900px) {
-
     /* section 1-4 */
     .sec-first,
     .sec-thired {
@@ -484,8 +477,6 @@ footer {
         left: 60px;
     }
 
-
-
     /* faq section */
     .sec-faq h1 {
         font-size: 32px;
@@ -524,8 +515,6 @@ footer {
         margin: 0 18%;
     }
 
-
-
     /* footer */
     .footer {
         display: grid;
@@ -542,9 +531,7 @@ footer {
 
 
 
-
-
-
+/* css for the below 350 px screen */
 @media only screen and (max-width: 350px) {
 
     /* nav-bar */
@@ -606,7 +593,6 @@ footer {
         padding: 12px 15px;
     }
 
-
     /* section 1-4 */
     .headline {
         font-size: 22px;
@@ -637,7 +623,6 @@ footer {
         left: 31px;
     }
 
-
     /* faq section */
     .sec-faq h1 {
         font-size: 22px;
@@ -667,7 +652,6 @@ footer {
         padding: 9px 12px;
     }
 
-
     /* footer */
     .footer {
         display: grid;
@@ -681,4 +665,80 @@ footer {
         margin-left: 8px;
         margin: 30px 12px;
     }
+}
+
+
+
+/* css for the particuler mobile view on dextop site px screen */
+@media only screen and (max-width:982px) and (min-width:980px) {
+     .main {
+        height: 30vh;
+    }
+
+  /* navbar */
+    .nav-img img {
+        width: 168px;   
+        margin-top: 5px;
+    }
+
+    .navbtn-1,
+    .navbtn-2 {
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .navbtn-1 {
+        padding: 8px 13px;
+    }
+
+    .navbtn-2 {
+        padding: 8px 13px;
+        margin-left: 15px;
+    }
+
+  /* main-content */
+    div .main-content> :first-child {
+        font-size: 48px;
+        font-weight: bolder;
+    }
+
+    div .main-content>:nth-child(2) {
+        font-size: 24px;
+        font-weight: 400;
+    }
+
+    div .main-content>:nth-child(3) {
+        font-size: 24px;
+        font-weight: 400;
+    }
+
+  /* section */
+    .headline {
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+
+    .subline {
+        font-size: 19px;
+    }
+
+    .section-img img {
+        position: relative;
+        width: 400px;
+        z-index: 10;
+    }
+
+    .sec-video-1 {
+        width: 320px;
+        margin-right: 26px;
+        top: 28px;
+        right: 0;
+    }
+
+    .sec-video-2 {
+        width: 240px;
+        top: 14px;
+        right: 0;
+        left: 80px;
+    } 
 }
