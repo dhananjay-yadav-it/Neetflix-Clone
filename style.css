@@ -15,9 +15,11 @@ body {
     background-image: url("assets/bg.jpg");
     height: 80vh;
     background-position: center center;
-    background-size: max(1200px, 130%);
+   /* background-size: max(1200px, 130%); */
     background-repeat: no-repeat;
     position: relative;
+    top: 0;
+    background-size: cover;
 }
 
 .main .box {
