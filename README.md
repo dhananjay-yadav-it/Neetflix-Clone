@@ -22,11 +22,10 @@ CSS Flexbox: For flexible, row-based and column-based layouts.
 CSS Grid: For creating complex grid-based layouts.
 
 # Getting Started
-Clone the repository: git clone https://github.com/dhananjayyadav21/netflix-clone.git
+Clone the repository: git clone (https://dhananjayyadav21.github.io/Netflixclone/)
 
 Open the index.html file in your browser to view the project.
 
-# Demo
+# Demo Netflix
 You can view a live demo of the project here.
 
-# Netflix
