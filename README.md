@@ -28,4 +28,5 @@ Open the index.html file in your browser to view the project.
 
 # Demo Netflix
 You can view a live demo of the project here.
+![dhananjayyadav21 github io_Netflixclone_](https://github.com/user-attachments/assets/37974ea6-f685-4062-aad4-8dccf4a8b014)
 
